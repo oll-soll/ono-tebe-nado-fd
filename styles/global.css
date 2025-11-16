@@ -8,6 +8,8 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background-color: #F5F5F5;
+  color: #000000;
 }
 
 h1,
@@ -34,5 +36,10 @@ img {
 }
 
 button {
+  all: unset;
   font: inherit;
+}
+
+ul, ol {
+  list-style: none;
 }

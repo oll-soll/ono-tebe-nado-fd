@@ -1,1 +1,300 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 95px 50px 96px;
+}
+
+.header_logo {
+  display: block;
+  width: 130px;
+}
+
+.header_menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  list-style: circle inside;
+}
+
+.header_menu-link {
+  font-size: 18px;
+  line-height: 100%;
+  align-items: center;
+}
+
+.header_menu-item-main {
+  text-decoration: none;
+  list-style: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  justify-self: end;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  font-style: normal;
+}
+.cover {
+  position: relative;
+  padding: 165px 50px 50px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 757px;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.cover_title {
+  text-transform: uppercase;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 130px;
+}
+
+.accent_span {
+  display: block;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.letter_spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no_letter-spacing {
+  letter-spacing: 0;
+}
+.cover_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.cover_description-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 18px;
+}
+
+.bet_button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 100%;
+  padding: 12px 32px;
+  text-align: center;
+}
+
+.lots {
+  padding: 0;
+  margin-top: 180px;
+}
+
+.lots_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 0 24px 0 24px;
+}
+.lots_title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-left: 64px;
+  margin-bottom: 30px;
+}
+
+.lots_item {
+  width: 334px;
+  min-height: 596px;
+  margin-bottom: 30px;
+}
+
+.lots_link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card_lot {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  padding: 48px 40px;
+  z-index: 1;
+}
+
+.card_type-film {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type-book {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type-picture {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.card_title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration: underline;
+}
+
+.card_text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots_look-more-link {
+  text-transform: lowercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  column-gap: 50px;
+  padding: 0;
+  margin-top: 165px;
+  margin-bottom: 180px;
+}
+
+.about_column-logo {
+  justify-self: center;
+  margin-left: 71px;
+}
+
+.about_logo {
+  display: flex;
+}
+
+.about_logo-background {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about_title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 100px;
+  margin-top: 95px;
+}
+
+.about_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 24px;
+}
+
+.about_paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 50px 82px;
+  gap: 170px;
+}
+
+.contacts_footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+}
+
+.contacts_nowrap {
+  white-space: nowrap;
+}
+
+.footer_menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  line-height: 130%;
+}
+
+.footer_menu-item-main .footer_menu-link {
+  text-decoration: none;
+}
+
+.footer_menu-link {
+  font-size: 18px;
+}
+
+.footer_social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 48px;
+}
+
+.footer_social-icon {
+  width: 48px;
+  height: 48px;
+}
