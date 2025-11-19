@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
+  gap: 14px;
   list-style: circle inside;
 }
 
@@ -40,10 +40,11 @@
   line-height: 135%;
   font-style: normal;
 }
+
 .cover {
   position: relative;
   padding: 165px 50px 50px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -86,6 +87,7 @@
 .no_letter-spacing {
   letter-spacing: 0;
 }
+
 .cover_description {
   display: flex;
   justify-content: space-between;
@@ -124,8 +126,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 25px;
-  margin: 0 24px 0 24px;
+  margin: 0 24px 30px 24px;
 }
+
 .lots_title {
   text-transform: uppercase;
   font-size: 40px;
@@ -138,7 +141,6 @@
 .lots_item {
   width: 334px;
   min-height: 596px;
-  margin-bottom: 30px;
 }
 
 .lots_link {
@@ -160,15 +162,15 @@
 }
 
 .card_type-film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type-book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type-picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -193,25 +195,19 @@
   font-weight: 400;
   line-height: 100%;
   margin-left: 64px;
-  margin-top: 30px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  column-gap: 50px;
+  column-gap: 25px;
   padding: 0;
-  margin-top: 165px;
-  margin-bottom: 180px;
+  margin: 120px 24px 180px;
 }
 
 .about_column-logo {
   justify-self: center;
-  margin-left: 71px;
-}
-
-.about_logo {
-  display: flex;
+  padding-top: 38px;
 }
 
 .about_logo-background {
@@ -223,6 +219,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .about_logo-image {
   width: 148px;
   height: 114px;
@@ -234,7 +231,7 @@
   font-weight: 700;
   line-height: 120%;
   padding-bottom: 100px;
-  margin-top: 95px;
+  margin-top: 138px;
 }
 
 .about_text {
@@ -254,21 +251,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 50px 82px;
-  gap: 170px;
 }
 
 .contacts_footer {
   display: flex;
   flex-direction: column;
+  justify-self: start;
   max-width: 240px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
-}
-
-.contacts_nowrap {
-  white-space: nowrap;
 }
 
 .footer_menu-list {
@@ -277,6 +270,7 @@
   align-items: center;
   list-style: none;
   line-height: 130%;
+  text-align: center;
 }
 
 .footer_menu-item-main .footer_menu-link {
