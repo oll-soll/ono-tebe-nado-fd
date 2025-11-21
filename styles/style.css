@@ -18,15 +18,18 @@
   list-style: circle inside;
 }
 
+.header_links-list-item_no-bullit {
+  list-style: none;
+}
+
 .header_menu-link {
   font-size: 18px;
   line-height: 100%;
   align-items: center;
 }
 
-.header_menu-item-main {
+.header_link_active {
   text-decoration: none;
-  list-style: none;
 }
 
 .contacts {
